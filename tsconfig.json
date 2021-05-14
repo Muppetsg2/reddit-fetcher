@@ -2,10 +2,10 @@
 	"compilerOptions": {
 		"module": "CommonJS",
 		"target": "es5",
-        "lib": ["es6"],
+        	"lib": ["es6"],
 		"allowJs": true,
 		"declaration": true,
-        "strict": true,  
+        	"strict": true,  
 		"outDir": "build"
 	},
 	"includes": ["**/*"],
