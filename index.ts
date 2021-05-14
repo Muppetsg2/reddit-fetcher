@@ -69,8 +69,8 @@ export async function get(
 		post.index = whileIndex
 		if (check(post, type, over18)) {
 			const returnObject: ReturnObject = {
-				media: post.data.url_overridden_by_dest,
-				url: post.data.url,
+				media: post.data.url_overridden_by_dest || '',
+				url: post.data.url || '',
 				author: post.data.author,
 				title: post.data.title,
 			}
